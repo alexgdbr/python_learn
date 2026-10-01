@@ -48,6 +48,14 @@ lista = ["maçã", "banana", "laranja", "uva"]
 lista.pop()
 print(lista)
 
+lista = ["maçã", "banana", "laranja", "uva"]
+lista.pop(1)
+print(lista)
+
+lista = ['eu', 'tu', 'ele', 'nós'] #cria lista com quatro elementos
+ultimo = lista.pop() #remove e retorna o último elemento da lista, que é armazenado então na variável ultimo
+print(ultimo) #exibe 'nós'
+
 # A palavra-chave também remove o especificado Índice:del
 lista = ["maçã", "banana", "laranja", "uva"]
 del lista[0]
